@@ -1,26 +1,14 @@
-Python Note 300 - Dict
-======================
+---
+title: "Python Note 300 - Dict"
+date: 2017-02-13
+lastmod: 2017-02-13
+tags: ["python","note","dict"]
+categories: ["Development"]
+slug: "python-note-300-dict"
+description: "Python note series 300 - dict"
+---
 
-date
-:   2017-02-13
 
-modified
-:   2017-02-13
-
-slug
-:   python-note-300-dict
-
-tags
-:   python, note, dict
-
-category
-:   Development
-
-author
-:   Dormouse Young
-
-summary
-:   Python note series 300 - dict
 
 字典推导
 --------
@@ -48,7 +36,7 @@ summary
         def __init__(self, age):
             self.age = age
 
-persons = [Person(age) for age in (78, 14, 78, 42, 14)]
+persons = \[Person(age) for age in (78, 14, 78, 42, 14)\]
 如果现在我们要按照年龄分组的话，一种方法是使用 in 操作符:
 
     persons_by_age = {}
@@ -78,7 +66,7 @@ defaultdict(defaultdict)行不通，正确的方法是d = defaultdict(lambda
 list 转 dict
 ------------
 
-将 ['1:a','2:b','3:c'] 转换为 {'1′: 'a', '3′: 'c', '2′: 'b'}:
+将 \['1:a','2:b','3:c'\] 转换为 {'1′: 'a', '3′: 'c', '2′: 'b'}:
 
     dict(item.split(':')[:2] for item in b)
 

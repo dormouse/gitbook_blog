@@ -1,26 +1,11 @@
-Python Note 600 - Functional Programming
-========================================
-
-date
-:   2017-02-13
-
-modified
-:   2017-02-13
-
-slug
-:   python-note-600-functional-programming
-
-tags
-:   python, note, functional-programming
-
-category
-:   Development
-
-author
-:   Dormouse Young
-
-summary
-:   Python note series 600 - functional-programming
+---
+title: "Python Note 600 - Functional Programming"
+date: 2017-02-13
+lastmod: 2017-02-13
+tags: ["python","note"]
+categories: ["Development"]
+slug: "python-note-600-functional-programming"
+---
 
 lambda
 ------
@@ -39,7 +24,7 @@ lambda 语句构建是一个函数对象:
 filter
 ------
 
-filter(function or None, sequence) -\> list, tuple, or string
+filter(function or None, sequence) -&gt; list, tuple, or string
 
 返回序列中 function(item) 为 true 的项目。如果 fuction 为 None
 ，那么就返回 测试结果为 true 的项目。如果序列的类型为 tuple 或者 string
@@ -53,7 +38,7 @@ filter(function or None, sequence) -\> list, tuple, or string
 map
 ---
 
-map(function, sequence[, sequence, ...]) -\> list
+map(function, sequence\[, sequence, ...\]) -&gt; list
 
 返回一个 list
 ，其内容为把序列中的每一个值作为函数的参数得到的函数的返回值:
@@ -83,17 +68,17 @@ None 来补充:
 reduce
 ------
 
-reduce(function, sequence[, initial]) -\> value
+reduce(function, sequence\[, initial\]) -&gt; value
 
 Apply a function of two arguments cumulatively to the items of a
 sequence, from left to right, so as to reduce the sequence to a single
-value. For example, reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]) calculates
-((((1+2)+3)+4)+5). If initial is present, it is placed before the items
-of the sequence in the calculation, and serves as a default when the
-sequence is empty:
+value. For example, reduce(lambda x, y: x+y, \[1, 2, 3, 4, 5\])
+calculates ((((1+2)+3)+4)+5). If initial is present, it is placed before
+the items of the sequence in the calculation, and serves as a default
+when the sequence is empty:
 
     In [9]: reduce(lambda x, y: x + y, foo)
     Out[9]: 139
 
 reduce 函数在 python3 中已经不属于 build-in 了，而是在 functools
-模块下， 如需使用，需要从functools模块中引入。
+模块下， 如需使用，需要从 functools 模块中引入。
