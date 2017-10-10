@@ -1,23 +1,13 @@
-Haskell 笔记
-============
+---
+title: "Haskell 笔记"
+date: 2015-05-18
+lastmod: 2015-05-18
+tags: ["haskell","note"]
+categories: ["haskell"]
+slug: "haskell-note"
+---
 
-date
-:   2015-05-18
 
-modified
-:   2015-05-18
-
-slug
-:   haskell-note
-
-tags
-:   haskell, note
-
-category
-:   haskell
-
-author
-:   Dormouse Young
 
 入门
 ----

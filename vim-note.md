@@ -1,26 +1,11 @@
-Vim Note
-========
-
-date
-:   2017-02-10
-
-modified
-:   2017-02-16
-
-slug
-:   vim-note
-
-tags
-:   vim, note
-
-category
-:   software
-
-author
-:   Dormouse Young
-
-summary
-:   Note for vim.
+---
+title: "Vim Note"
+date: 2017-02-10
+lastmod: 2017-02-16
+tags: ["vim", "note"]
+categories: ["software"]
+slug: "vim-note"
+---
 
 Use MacVim in Command line
 --------------------------
@@ -44,13 +29,22 @@ Edit more than one file
 
 #### in vim
 
--   e file 
+-
+
+    e file
+
     :   open new file
 
--   sp file 
+-
+
+    sp file
+
     :   open new file in hroizontal window
 
--   vsp file 
+-
+
+    vsp file
+
     :   open new file in vertical window
 
 ### close file
@@ -83,22 +77,21 @@ date
 -   `:r !command`: run command in shell, insert result to next line (ie:
     `:r !date`: insert date to nex line)
 
-What is the \<Leader\> key?
----------------------------
+What is the &lt;Leader&gt; key?
+-------------------------------
 
-> **important**
->
-> This section copy from:
-> <http://stackoverflow.com/questions/1764263/what-is-the-leader-in-a-vimrc-file>
+This section copy from:
+http://stackoverflow.com/questions/1764263/what-is-the-leader-in-a-vimrc-file
+
 
 The `<Leader>` key is mapped to `\` by default. So if you have a map of
 `<Leader>t`, you can execute it by default with `\+t`. For more detail
 or re-assigning it using the mapleader variable, see `:help leader`.
 
 To define a mapping which uses the "mapleader" variable, the special
-string "\<Leader\>" can be used.  It is replaced with the string value
-of "mapleader". If "mapleader" is not set or empty, a backslash is used
-instead.  
+string "&lt;Leader&gt;" can be used.  It is replaced with the string
+value of "mapleader". If "mapleader" is not set or empty, a backslash is
+used instead.  
 
 Example:
 

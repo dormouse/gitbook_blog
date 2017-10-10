@@ -1,59 +1,45 @@
-PyQt5 Note
-==========
+---
+title: "PyQt5 Note"
+date: 2017-05-15
+lastmod: 2017-05-15
+tags: ["pyqt","note"]
+categories: ["development"]
+slug: "pyqt5-note"
+description: "Note of PyQt5"
+---
 
-date
-:   2017-05-15
 
-modified
-:   2017-05-15
 
-slug
-:   pyqt5-note
+## 安装 PyQt5 及其文档
 
-tags
-:   pyqt, note
-
-category
-:   develop
-
-author
-:   Dormouse Young
-
-summary
-:   Note of PyQt5
-
-PyQt5 学习笔记
---------------
-
-### 安装 PyQt5 及其文档
-
-#### unbuntu
+### unbuntu plantform
 
     sudo apt-get install python3-pyqt5 pyqt5-doc pyqt5-examples
-    sudo apt-get install qtbase5-doc
+    sudo apt-get install python3-pyqt5* qtbase5-doc qttools5-dev-tools
 
 示例所在目录：/usr/share/doc/pyqt5-examples/examples/qtdemo/qtdemo.py
 
-Qt5 文档所在目录： /usr/share/qt5/doc
+文档所在目录： /usr/share/qt5/doc
 
 安装更多:
 
-    sudo apt-get install python3-pyqt5* qtbase5-doc
-    sudo apt-get install qt5-doc qttools5-dev-tools
 
-#### OSX
+### OSX plantform
 
     brew install python3
     brew install pyqt5
 
-文档和示例都在源代码中，下载：https://sourceforge.net/projects/pyqt/files/PyQt5/
+文档和示例都在源代码中，
+[download](https://sourceforge.net/projects/pyqt/files/PyQt5/)
 
-assistant :
-/usr/local/Cellar/qt5/5.6.1-1/libexec/Assistant-qt5.app/Contents/MacOS/Assistant
+## PyQt5 assistant
 
-### PyCharm 配置相关工具
+    /usr/local/Cellar/qt/5.9.0/libexec/Assistant.app
+    /usr/local/Cellar/qt5/5.6.1-1/libexec/Assistant-qt5.app/Contents/MacOS/Assistant
 
-#### Linux Mint
+## PyCharm 配置相关工具
+
+### Linux Mint
 
 qt5desinger:
 
@@ -70,3 +56,34 @@ pyuic:
 qt5assistant:
 
     Program: /usr/lib/x86_64-linux-gnu/qt5/bin/assistant
+
+## 关于 model index
+
+获得 model index:
+
+    index = model.index(row, column, QModelIndex())
+
+设置 model 的值:
+
+    model.setData(index, value, Qt.EditRole)
+
+## Some tips
+
+widget connect signal with parameter:
+
+    self.button1.clicked.connect(lambda : do_stuff('btn one'))
+    self.button2.clicked.connect(lambda : do_stuff('btn two'))
+
+move window to center of screen:
+
+    self.move(QtGui.QApplication.desktop().screen().rect().center()- self.rect().center())
+
+## TreeView
+
+set columnt width:
+
+    view->header()->setStretchLastSection(false);
+    view->header()->setResizeMode(INDEX_COLUMN_SKU, QHeaderView::Interactive);
+    view->header()->setResizeMode(INDEX_COLUMN_NAME, QHeaderView::Stretch);
+    view->header()->setResizeMode(INDEX_COLUMN_QUANTITY, QHeaderView::Interactive);
+    view->header()->setResizeMode(INDEX_COLUMN_PRICE, QHeaderView::Interactive);

@@ -1,26 +1,14 @@
-Golang Quick Start
-==================
+---
+title: "Golang Quick Start"
+date: 2017-01-18 11:56:48
+lastmod: 2017-01-18 11:56:48
+tags: ["golang"]
+categories: ["development"]
+slug: "golang-quick-start"
+description: "Golang by Google"
+---
 
-date
-:   2017-01-18 11:56:48
 
-modified
-:   2017-01-18 11:56:48
-
-slug
-:   golang-quick-start
-
-tags
-:   golang
-
-category
-:   development
-
-author
-:   Dormouse Young
-
-summary
-:   Golang by Google
 
 Quick Start
 -----------
@@ -58,7 +46,7 @@ Done!
 My first golang programe
 ------------------------
 
-~~~~ {.sourceCode .go}
+``` {.sourceCode .go}
 package main
 
 import "fmt"
@@ -89,7 +77,7 @@ func main() {
         fmt.Println(f())
     }
 }
-~~~~
+```
 
 Study source
 ------------

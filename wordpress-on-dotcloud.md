@@ -1,20 +1,12 @@
-dotcloud 部署 wordpress
-=======================
+---
+title: "dotcloud 部署 wordpress"
+date: 2012-01-06
+tags: ["workpress","dotcloud"]
+categories: ["linux"]
+slug: "wordpress-on-dotcloud"
+---
 
-date
-:   2012-01-06
 
-slug
-:   wordpress-on-dotcloud
-
-tags
-:   workpress, dotcloud
-
-category
-:   linux
-
-author
-:   Dormouse Young
 
 安装环境并创建项目
 ------------------

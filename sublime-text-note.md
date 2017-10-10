@@ -1,28 +1,39 @@
-Sublime Text Note
-=================
+---
+title: "Sublime Text Note"
+date: 2017-01-19 12:48:01
+lastmod: 2017-09-25
+tags: ["sublime","note"]
+categories: ["software"]
+slug: "sublime-text-note"
+---
 
-date
-:   2017-01-19 12:48:01
+Install Sublime Text3
+---------------------
 
-modified
-:   2017-02-12 13:13:57
+### apt
 
-slug
-:   sublime-text-note
+Install the GPG key:
 
-tags
-:   sublime, note
+    wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 
-category
-:   software
+Ensure apt is set up to work with https sources:
 
-author
-:   Dormouse Young
+    sudo apt-get install apt-transport-https
 
-summary
-:   Note for sublime text. Sublime Text is a sophisticated text editor
-    for code, markup and prose. You'll love the slick user interface,
-    extraordinary features and amazing performance.
+Select the channel to use:
+
+Stable:
+
+    echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+
+Dev:
+
+    echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+
+Update apt sources and install Sublime Text:
+
+    sudo apt-get update
+    sudo apt-get install sublime-text
 
 Install Package Control
 -----------------------
@@ -117,4 +128,6 @@ Ref
 ---
 
 -   <https://www.zhihu.com/question/33409254>
+-   Sublime Text Document: [Linux Package Manager
+    Repositories](https://www.sublimetext.com/docs/3/linux_repositories.html)
 

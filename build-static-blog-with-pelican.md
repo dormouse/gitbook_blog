@@ -1,26 +1,14 @@
-Build Static Blog With Pelican
-==============================
+---
+title: "Build Static Blog With Pelican"
+date: 2015-03-10 13:55:57
+lastmod: 2017-02-08 13:55:57
+tags: ["pelican","blog"]
+categories: ["software"]
+slug: "build-static-blog-with-pelican"
+description: "Build static blog with pelican."
+---
 
-date
-:   2015-03-10 13:55:57
 
-modified
-:   2017-02-08 13:55:57
-
-slug
-:   build-static-blog-with-pelican
-
-tags
-:   pelican, blog
-
-category
-:   software
-
-author
-:   Dormouse Young
-
-summary
-:   Build static blog with pelican.
 
 Setup environment and install software:
 
@@ -136,7 +124,7 @@ Themes which I like is:
 
 Edit publishconf.py as following:
 
-~~~~ {.sourceCode .python}
+``` {.sourceCode .python}
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
@@ -161,7 +149,7 @@ DELETE_OUTPUT_DIRECTORY = True
 
 DISQUS_SITENAME = "dormouseyoung"
 #GOOGLE_ANALYTICS = ""
-~~~~
+```
 
 Make some floders:
 

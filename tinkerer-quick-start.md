@@ -1,24 +1,11 @@
-Tinkerer Quick Start
-====================
+---
+title: "Tinkerer Quick Start"
+date: 2017-02-01
+tags: ["tinkerer","blog"]
+categories: ["software"]
+slug: "tinkerer-quick-start"
+---
 
-date
-:   2017-02-01
-
-slug
-:   tinkerer-quick-start
-
-tags
-:   tinkerer, blog
-
-category
-:   software
-
-author
-:   Dormouse Young
-
-summary
-:   Tinkerer is a Python blogging engine/static website generator
-    powered by Sphinx.
 
 Install
 -------

@@ -1,26 +1,14 @@
-Mac Note
-========
+---
+title: "Mac Note"
+date: 2017-02-10
+lastmod: 2017-02-10
+tags: ["mac","note"]
+categories: ["software"]
+slug: "mac-note"
+description: "Note of how to use mac"
+---
 
-date
-:   2017-02-10
 
-modified
-:   2017-02-10
-
-slug
-:   mac-note
-
-tags
-:   mac, note
-
-category
-:   software
-
-author
-:   Dormouse Young
-
-summary
-:   Note of how to use mac
 
 Install firefox
 ---------------

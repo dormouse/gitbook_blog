@@ -1,20 +1,12 @@
-硬盘安装 Linux Mint 12
-======================
+---
+title: "硬盘安装 Linux Mint 12"
+date: 2012-04-25
+tags: ["linuxmint"]
+categories: ["linux"]
+slug: "install-linuxmint12"
+---
 
-date
-:   2012-04-25
 
-slug
-:   install-linuxmint12
-
-tags
-:   linuxmint
-
-category
-:   linux
-
-author
-:   Dormouse Young
 
 修改 Grub
 ---------
@@ -111,8 +103,8 @@ vboxusers 组:
     apt-get install xbmc xbmc-standalone
     apt-get update
 
-安装完以后要设置字体：进入 XBMC，菜单 System -\> Appearance -\> Skin -\>
-Fonts -\> 选择 Arial based 。
+安装完以后要设置字体：进入 XBMC，菜单 System -&gt; Appearance -&gt; Skin
+-&gt; Fonts -&gt; 选择 Arial based 。
 
 ### 安装其他软件
 

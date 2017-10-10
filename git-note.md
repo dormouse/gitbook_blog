@@ -1,26 +1,14 @@
-Git Note
-========
+---
+title: "Git Note"
+date: 2017-02-11
+lastmod: 2017-02-11
+tags: ["git","note"]
+categories: ["software"]
+slug: "git-note"
+description: "Note for git."
+---
 
-date
-:   2017-02-11
 
-modified
-:   2017-02-11
-
-slug
-:   git-note
-
-tags
-:   git, note
-
-category
-:   software
-
-author
-:   Dormouse Young
-
-summary
-:   Note for git.
 
 Basic Usage
 -----------

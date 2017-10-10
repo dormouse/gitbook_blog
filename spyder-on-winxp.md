@@ -1,23 +1,13 @@
-Spyder in Winxp
-===============
+---
+title: "Spyder in Winxp"
+date: 2013-11-21
+tags: ["pythonxy","pyzmq","spyder","windows"]
+categories: ["software"]
+slug: "spyder-on-winxp"
+description: "在 Windows XP 下安装完 Python(x,y) 后无法运行 spyder 和 Ipython"
+---
 
-date
-:   2013-11-21
 
-slug
-:   spyder-on-winxp
-
-tags
-:   pythonxy, pyzmq, spyder, windows
-
-category
-:   software
-
-author
-:   Dormouse Young
-
-summary
-:   在 Windows XP 下安装完 Python(x,y) 后无法运行 spyder 和 Ipython
     console 的解决方法
 
 现象：在 Windows XP 下安装完 Python(x,y) 后无法运行 spyder 和 Ipython

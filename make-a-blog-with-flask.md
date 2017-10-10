@@ -1,26 +1,14 @@
-Make a blog with Flask
-======================
+---
+title: "Make a blog with Flask"
+date: 2017-02-09
+lastmod: 2017-02-09
+tags: ["flask","blog"]
+categories: ["development"]
+slug: "make-a-blog-with-flask"
+description: "let start a blog with Flask."
+---
 
-date
-:   2017-02-09
 
-modified
-:   2017-02-09
-
-slug
-:   make-a-blog-with-flask
-
-tags
-:   flask, blog
-
-category
-:   development
-
-author
-:   Dormouse Young
-
-summary
-:   let start a blog with Flask.
 
 Init
 ----

@@ -1,20 +1,12 @@
-Linux Mint 17 安装笔记
-======================
+---
+title: "Linux Mint 17 安装笔记"
+date: 2014-10-16 20:31:00
+tags: ["linuxmint"]
+categories: ["linux"]
+slug: "install-linuxmint17"
+---
 
-date
-:   2014-10-16 20:31:00
 
-slug
-:   install-linuxmint17
-
-tags
-:   linuxmint
-
-category
-:   linux
-
-author
-:   Dormouse Young
 
 Install cloudstation
 --------------------
@@ -40,7 +32,8 @@ Install some software
 -   Software setup
 
     > -   Sync firefox
-    > -   Setup git, see : [Github Setup]({filename}github-setup.rst)
+    > -   Setup git, see : [Github
+    >     Setup](%7Bfilename%7Dgithub-setup.rst)
 
 Install virtualenv
 ------------------
@@ -69,5 +62,5 @@ Install XBMC
     sudo apt-get update
     sudo apt-get install xbmc xbmc-standalone
 
-安装完以后要设置字体：进入 XBMC，菜单 System -\> Appearance -\> Skin -\>
-Fonts -\> 选择 Arial based 。
+安装完以后要设置字体：进入 XBMC，菜单 System -&gt; Appearance -&gt; Skin
+-&gt; Fonts -&gt; 选择 Arial based 。

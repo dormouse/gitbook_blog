@@ -1,23 +1,13 @@
-How to configure iCloud mail in Mozilla Thunderbird
-===================================================
+---
+title: "How to configure iCloud mail in Mozilla Thunderbird"
+date: 2017-01-25
+tags: ["mail","thunderbird"]
+categories: ["software"]
+slug: "howto-config-icoloud-mail-in-thunderbird"
+description: "How to configure iCloud mail in Mozilla Thunderbird"
+---
 
-date
-:   2017-01-25
 
-slug
-:   howto-config-icoloud-mail-in-thunderbird
-
-tags
-:   mail, thunderbird
-
-category
-:   software
-
-author
-:   Dormouse Young
-
-summary
-:   How to configure iCloud mail in Mozilla Thunderbird
 
 Incoming:
 

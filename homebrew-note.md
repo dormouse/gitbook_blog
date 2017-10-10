@@ -1,26 +1,14 @@
-Homebrew Note
-=============
+---
+title: "Homebrew Note"
+date: 2017-02-05 22:34:28
+lastmod: 2017-02-08 13:13:57
+tags: ["homebrew","note"]
+categories: ["software"]
+slug: "homebrew-note"
+description: "Note for homebrew."
+---
 
-date
-:   2017-02-05 22:34:28
 
-modified
-:   2017-02-08 13:13:57
-
-slug
-:   homebrew-note
-
-tags
-:   homebrew, note
-
-category
-:   software
-
-author
-:   Dormouse Young
-
-summary
-:   Note for homebrew.
 
 Office site: <http://brew.sh/> .
 

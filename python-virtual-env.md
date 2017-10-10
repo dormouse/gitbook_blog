@@ -1,23 +1,56 @@
-安装 Python 虚拟环境
-====================
+---
+title: "安装 Python 虚拟环境"
+date: 2012-04-25
+lastmod: 2017-09-25
+tags: ["python","virtual"]
+categories: ["development"]
+slug: "python-virtual-env"
+---
 
-date
-:   2012-04-25
 
-modified
-:   2014-10-30
 
-slug
-:   python-virtual-env
+Install Anaconda
+----------------
 
-tags
-:   python, virtual
+官方网站：https://www.continuum.io/
+清华大学开源软件镜像站：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 
-category
-:   development
+conda 官方文档：https://docs.anaconda.com/
 
-author
-:   Dormouse Young
+查看版本:
+
+    conda -V
+    conda --version
+
+查看信息:
+
+    conda info
+
+### 虚拟环境
+
+查看有哪些虚拟环境:
+
+    conda env list
+
+查看当前所在的虚拟环境:
+
+    conda info --e
+
+创建虚拟环境:
+
+    conda /home/somebody/anaconda3/bin/conda create -p /home/somebody/anaconda3/envs/env_name -y python=3.6
+
+切换虚拟环境:
+
+    source activate env_name
+
+查看当前环境的包列表:
+
+    conda list
+
+搜索包:
+
+    conda search beautifulsoup4
 
 使用 virtualenvwrapper
 ----------------------

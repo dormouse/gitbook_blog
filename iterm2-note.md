@@ -1,26 +1,14 @@
-iTerm2 Note
-===========
+---
+title: "iTerm2 Note"
+date: 2017-02-07 21:47:40
+lastmod: 2017-02-08 13:13:57
+tags: ["iterm2","note"]
+categories: ["software"]
+slug: "iterm2-note"
+description: "Note for iTerm2."
+---
 
-date
-:   2017-02-07 21:47:40
 
-modified
-:   2017-02-08 13:13:57
-
-slug
-:   iterm2-note
-
-tags
-:   iterm2, note
-
-category
-:   software
-
-author
-:   Dormouse Young
-
-summary
-:   Note for iTerm2.
 
 Install
 -------
@@ -48,17 +36,17 @@ General Usage
 
 ### Hotkey
 
-  Key           Description
-  ------------- -------------------------------------------------------
-  Ctrl i        Show window (set in `Basic Config` section above)
-  cmd w         close panel or tab or window
-  cmd d         split the current session into two panes horizontally
-  cmd shift d   split the current session into two panes Vertically
+  Key           | Description
+  ------------- | -------------------------------------------------------
+  Ctrl i        | Show window (set in `Basic Config` section above)
+  cmd w         | close panel or tab or window
+  cmd d         | split the current session into two panes horizontally
+  cmd shift d   | split the current session into two panes Vertically
 
 -   Cmd+left arrow, Cmd+right arrow navigates among tabs. So does Cmd-{
     and Cmd-}.
 -   Cmd+number navigates directly to a tab.
 -   Cmd+Option+Number navigates directly to a window.
 -   Cmd+Option+Arrow keys navigate among split panes.
--   Cmd+] and Cmd+[ navigates among split panes in order of use.
+-   Cmd+\] and Cmd+\[ navigates among split panes in order of use.
 
