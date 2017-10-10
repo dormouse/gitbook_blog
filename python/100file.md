@@ -7,8 +7,9 @@ categories: ["Development"]
 slug: "python-note-100-file"
 ---
 
-打开文件
---------
+# Python 笔记 - 文件
+
+## 打开文件
 
 打开文件示例:
 
