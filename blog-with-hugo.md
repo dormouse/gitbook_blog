@@ -1,11 +1,10 @@
 ---
-title: "My First Post"
-date: 2018-02-10T12:28:58+08:00
+title: My First Post
+date: 2018-02-10T04:28:58.000Z
 draft: Fasle
 ---
 
-
-Try to separate blog from documents since now.
+Try to separate blog from documents since now.  
 Choose Hugo for my blog.
 
 # Install Hugo
@@ -31,10 +30,12 @@ echo 'theme = "ananke"' >> config.toml
 hugo new posts/my-first-post.md
 hugo server -D
 ```
-Then goto http://localhost:1313/ ,
+
+Then goto [http://localhost:1313/](http://localhost:1313/) ,  
 a new blog is there.
 
-Site configuration, edit ``config.toml`` as:
+Site configuration, edit `config.toml` as:
+
 ```
 baseURL = "https://dormouse.github.io"
 languageCode = "en-us"
@@ -54,33 +55,31 @@ git push -u orgin master
 ```
 
 Create a deploy.sh file:
-```
-#!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+    #!/bin/bash
 
-# Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+    echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Go To Public folder
-cd public
-# Add changes to git.
-git add .
+    # Build the project.
+    hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
-# Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
-fi
-git commit -m "$msg"
+    # Go To Public folder
+    cd public
+    # Add changes to git.
+    git add .
 
-# Push source and build repos.
-git push origin master
+    # Commit changes.
+    msg="rebuilding site `date`"
+    if [ $# -eq 1 ]
+      then msg="$1"
+    fi
+    git commit -m "$msg"
 
-# Come Back up to the Project Root
-cd ..
+    # Push source and build repos.
+    git push origin master
 
-```
+    # Come Back up to the Project Root
+    cd ..
 
 Set the ouput public path as sub module:
 
@@ -89,7 +88,8 @@ rm -rf public/
 git submodule add -b master git@github.com:dormouse/dormouse.github.io.git public
 ./deploy.sh
 ```
-Or you can run ``./deploy.sh "Your optional commit message"``.
+
+Or you can run `./deploy.sh "Your optional commit message"`.
 
 # How to Clone this blog
 
@@ -103,13 +103,16 @@ git checkout master
 
 # Cheet sheet
 
-* Add new post:``hugo new posts/some-post.md``
-* Preview post:``hugo server -D``
+* Add new post:`hugo new posts/some-post.md`
+* Preview post:`hugo server -D`
 * Update blog2018.git
-* Deploy:``./deploy.sh``.
+* Deploy:`./deploy.sh`.
 
 # REF
 
-* https://gohugo.io/getting-started/quick-start/
-* https://github.com/budparr/gohugo-theme-ananke
-* https://gohugo.io/hosting-and-deployment/hosting-on-github/#set-gh-pages-as-your-publish-branch
+* [https://gohugo.io/getting-started/quick-start/](https://gohugo.io/getting-started/quick-start/)
+* [https://github.com/budparr/gohugo-theme-ananke](https://github.com/budparr/gohugo-theme-ananke)
+* [https://gohugo.io/hosting-and-deployment/hosting-on-github/\#set-gh-pages-as-your-publish-branch](https://gohugo.io/hosting-and-deployment/hosting-on-github/#set-gh-pages-as-your-publish-branch)
+
+
+
